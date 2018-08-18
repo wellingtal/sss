@@ -32,7 +32,6 @@ cd /bin
 wget https://www.dropbox.com/s/f4fq7idmt2d5c31/ssh.zip && unzip ssh.zip && chmod -R 777 * && rm ssh.zip
 cd /etc
 
-clear
 	if echo $(id) |grep sudo > /dev/null
 	then
 	clear
