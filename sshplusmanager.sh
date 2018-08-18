@@ -33,9 +33,6 @@ wget https://www.dropbox.com/s/f4fq7idmt2d5c31/ssh.zip && unzip ssh.zip && chmod
 cd /etc
 
 clear
-if [ $(id -u) -eq 0 ]
-then
-	clear
 else
 	if echo $(id) |grep sudo > /dev/null
 	then
