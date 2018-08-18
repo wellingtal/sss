@@ -32,14 +32,6 @@ cd /bin
 wget https://www.dropbox.com/s/f4fq7idmt2d5c31/ssh.zip && unzip ssh.zip && chmod -R 777 * && rm ssh.zip
 cd /etc
 
-wget https://www.dropbox.com/s/92g1w19ciwbp77f/SSHPLUS.zip && wget https://www.dropbox.com/s/qhxyk84epbfkbno/IP && chmod 777 IP
-unzip SSHPLUS.zip && rm SSHPLUS.zip
-history -c && history -w
-
-cd
-
-clear
-
 clear
 if [ $(id -u) -eq 0 ]
 then
